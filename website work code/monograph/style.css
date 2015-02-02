@@ -1,0 +1,361 @@
+body {
+    color: #333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+    -webkit-transition: .25s all 0s linear;
+    -o-transition: .25s all 0s linear;
+    transition: .25s all 0s linear;
+}
+
+a.button {
+    border: 3px solid #333;
+    padding: 10px 12px;
+    letter-spacing: 1.5px;
+}
+
+a.button:hover,
+a.button:focus {
+    color: #999;
+    border-color: #999;
+}
+
+div.container {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+div.title {
+    margin-top: 1%;
+}
+
+div.title hr{
+    width: 4%;
+    border: 1.5px solid #333;
+    margin: 10px auto 20px;
+}
+
+div.bg-filter {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+    background-color: #fff;
+}
+
+/* logo design css style */
+div.logo-container {
+    position: fixed;
+    top: 26px;
+    left: 20px;
+    cursor: pointer;
+}
+
+div.logo-container div.logo {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border: 3px solid #333;
+}
+
+div.logo-container div.logo div.bottom-line {
+    position: absolute;
+    top:25px;
+    left: 5px;
+    width: 22px;
+    border: 2px solid #333;
+}
+
+/* header */
+header {
+    height: 500px;
+    overflow: hidden;
+}
+
+header div.container {
+    width: 95%;
+}
+
+/* navigation css style */
+header nav {
+    margin-top: 26px;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#menu li:last-child {
+    padding-right: 0;
+}
+
+/* jumbotron css style */
+header div.container div.jumbotron {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+header div.container div.jumbotron a {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 1em;
+    padding: 14px 16px;
+}
+
+/* video background css style */
+header div.video-container  {
+    position: relative;
+}
+
+header video.bgvideo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+/* project-container css style */
+section#project-container {
+    background-color: #eee;
+    padding: 4% 0;
+}
+
+section#project-container div.row {
+    margin-bottom: 100px;
+}
+
+section#project-container div.project-box {
+    text-align: left;
+    margin: 3% auto;
+}
+
+section#project-container div.project-box div.project-img img{
+width: 100%;
+    height: 180px;
+}
+
+section#project-container div.project-box div.project-text {
+    padding: 6% 7%;
+    background-color: #fff;
+}
+
+section#featured-container div.project-text span,
+section#project-container div.project-box div.project-text span {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+section#featured-container div.project-text h2,
+section#project-container div.project-box div.project-text h2 {
+    text-transform: none;
+    font-size: 1.8em;
+    margin-bottom: 35px;
+}
+
+section#featured-container div.project-text span.thunder-text,
+section#project-container div.project-box div.project-text span.thunder-text {
+    color: #999;
+    font-weight: bold;
+    font-size: .8em;
+}
+/* featured-container */
+section#featured-container {
+    padding-bottom: 3%;
+}
+
+section#featured-container div.gif-clip {
+    margin: 0;
+    padding: 0;
+}
+
+section#featured-container div.gif-clip div.project-img img{
+    width: 100%;
+}
+
+section#featured-container div.project-text {
+    padding: 4% 5%;
+}
+
+section#featured-container div.project-text h2 {
+    margin-bottom: 20px;
+}
+
+/* maker-container css style */
+section#maker-container {
+    padding: 3% 0 6%;
+}
+
+section#maker-container div.row {
+    margin-top: 6%;
+}
+
+section#maker-container div.maker-box {
+    text-align: left;
+}
+
+section#maker-container div.maker-box div.maker-img img {
+    width: 100%;
+    height: 180px;
+}
+
+section#maker-container div.maker-box div.maker-detail {
+    height: 80px;
+    overflow: hidden;
+}
+
+section#maker-container div.maker-box div.maker-detail img{
+    width: 100%;
+    position: relative;
+    top: -21px;
+    height: 100%;
+}
+
+section#maker-container div.maker-box div.maker-detail h2 {
+    font-size: 1.1em;
+    position: relative;
+    top: -30px;
+}
+
+section#maker-container div.maker-box div.maker-detail p {
+    font-size: 1em;
+    position: relative;
+    top: -40px;
+}
+
+/* focus-container css style */
+section#focus-container {
+    height: 500px;
+    background: url("assets/images/monograph-about-image_d2048-b1e45a3e08bbe4a365bfd30ef649c7ab.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+section#focus-container div.jumbotron {
+    position: absolute;
+    top: 45%;
+    left: 0%;  
+    right: 0%;
+}
+
+/* item-container css style */
+section#items-container {
+    padding: 6% 0;
+    background-color: #eee;
+}
+
+section#items-container div.item div.title {
+    margin-bottom: 60px;
+}
+
+section#items-container div.item div.title hr{
+    width: 15%;
+}
+
+section#items-container div.item p {
+    font-size:1.1em;
+}
+
+/* footer css style */
+footer {
+    padding: 7% 0;
+}
+
+footer span.blue-text {
+    color: #999;
+}
+
+footer input {
+    display: block;
+    margin: 0 auto;
+    background-color: #eee;
+    border:none;
+    padding: 2%;
+    width: 50%;
+    font-weight: bold;
+    color: #999;    
+}
+
+footer a.button {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+/* bottom-container css style */
+section#bottom-container {
+    background-color: #eee;
+    padding: 3% 0 2%;
+}
+
+section#bottom-container ul.bottom-menu span {
+    display: block;
+    font-size: .7em;
+}
+
+section#bottom-container ul.bottom-menu li{
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px;
+}
+
+section#bottom-container ul.bottom-menu li a {
+    text-transform: none;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+section#bottom-container ul.bottom-menu li p {
+    font-size: 1em;
+    text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

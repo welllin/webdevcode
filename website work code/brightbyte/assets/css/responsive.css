@@ -1,0 +1,28 @@
+/* Responsive CSS */
+
+/* Mobile last; based off Bootstrap break points */
+
+
+/* lg: large > 1200 */
+@media screen and (min-width: 1200px) {
+}
+
+
+/* md: 992px < medium < 1200px */
+@media screen and (max-width: 1200px) {
+}
+
+
+/* sm: small < 992px */
+@media screen and (max-width: 992px) {
+}
+
+
+/* xs: extra small < 768px */
+@media screen and (max-width: 768px) {
+}
+
+
+/* phone portrait < 620 */
+@media screen and (max-width: 620px) {
+}

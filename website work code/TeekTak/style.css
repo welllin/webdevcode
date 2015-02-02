@@ -1,0 +1,205 @@
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: .9em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+span {
+	font-size: .8em;
+	color: #999;
+	display: block;
+}
+
+div.container {
+	text-align: center;
+}
+
+/* header */
+header {
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+}
+
+header div.container {
+    width: 98%;
+    text-align: inherit;
+}
+
+/* logo css style */
+header div.logo,
+header nav {
+	margin-top: 18px;
+}
+
+header div.logo img {
+	width: 50%;
+}
+
+#menu li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#menu li:last-child {
+    padding-right: 0;
+}
+
+/* jumbotron css style */
+header div.container div.jumbotron {
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+header div.container div.jumbotron h1 {
+	margin-bottom: 0;
+}
+
+header div.container div.jumbotron .input-box {
+	margin-top: 40px;
+}
+
+header div.container div.jumbotron .input-box input {
+	background-color: rgba(255,255,255,.3);
+	border:none;
+	border-radius: 3px;
+	padding: 12px;
+	font-size: .9em;
+	width: 200px;
+}
+
+header div.container div.jumbotron .input-box a.green-btn {
+	background: rgba(145,232,66,1);
+	border:none;
+	border-radius: 3px;
+	font-size: .9em;
+	padding: 12px;
+}
+
+header div.container div.jumbotron a {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+/* video background css style */
+header div.video-container  {
+    position: relative;
+}
+
+header video.bgvideo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+/* grey-bg css layout */
+ section.bg-grey {
+ 	padding: 6% 0;
+ 	background-color: #f4f4f4;
+ }
+
+section img {
+	display: block;
+	margin: 5% auto;
+}
+
+section div.icons:first-child {
+	margin: 3% 0;
+}
+
+section div.icons .icon {
+	border:1px solid rgba(0,0,0,.2);
+	border-right: none;
+	border-bottom: none;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+section div.icons .icon:last-child {
+	border-right: 1px solid rgba(0,0,0,.2);
+}
+
+section div.icons:last-child .icon {
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+section#team-container {
+	padding: 2% 0;
+}
+
+footer {
+	background-color: #35353f;
+	padding: 2% 0 0;
+}
+
+footer span {
+	margin: 2% 0;
+}
+
+footer span:first-child {
+	color: #fff;
+	font-size: .9em;
+}
+
+footer span:last-child {
+	margin-bottom: 0;
+}
+
+footer div.social-icons {
+	margin: 1% 0;
+}
+
+footer div.social-icons img {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
